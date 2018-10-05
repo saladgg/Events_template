@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+
+
+{% block styles %}
+{{super()}}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+{% endblock %}
+
+{% block content %}
+
+<div class="container jumbotron">
+    <h2>Popular Events Alert Website<h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis fugit, necessitatibus voluptatem
+                veritatis recusandae pariatur quae vitae earum et libero laudantium? Voluptatem quae laborum
+                exercitationem magnam non assumenda veniam quaerat.</p>
+</div>
+
+
+{% endblock %}
